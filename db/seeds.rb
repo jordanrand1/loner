@@ -9,7 +9,6 @@
 100.times do
   Post.create(
     name: Faker::Internet.username,
-    author: Faker::Name.name,
     body: Faker::Hipster.paragraph
   )
 end
